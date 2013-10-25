@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Highlighter.cs" />
      <Compile Include="Assets\MoveCamera.cs" />
      <Compile Include="Assets\iTween\Plugins\iTween.cs" />
      <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
@@ -52,6 +53,8 @@
      <None Include="Assets\Plugins\PlayMaker\SWS_PlayMaker_ReadMe.txt" />
      <None Include="Assets\Plugins\HOTween\HOTween_License.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\importsCollada\textures.txt" />
  <Reference Include="HOTween">
  <HintPath>Assets\Plugins\HOTween\HOTween.dll</HintPath>
  </Reference>
@@ -59,6 +62,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{D5C3192B-B096-5FFD-3A79-ED4A5267F021}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{0030AC0C-030B-B34D-CECD-B9173E558173}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

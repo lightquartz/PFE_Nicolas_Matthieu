@@ -45,9 +45,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Plugins\iTween.cs" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
      <None Include="Assets\Plugins\PlayMaker\SWS_PlayMaker_ReadMe.txt" />
      <None Include="Assets\Plugins\HOTween\HOTween_License.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\importsCollada\textures.txt" />
  <Reference Include="HOTween">
  <HintPath>Assets\Plugins\HOTween\HOTween.dll</HintPath>
  </Reference>

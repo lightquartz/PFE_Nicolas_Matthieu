@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://earth.google.com/kml/2.1'>
+<Folder>
+    <name>Gable House</name>
+    <description><![CDATA[Created with <a href="http://sketchup.google.com/">Google SketchUp 6.4.112</a>]]></description>
+    <DocumentSource>SketchUp</DocumentSource>
+<visibility>1</visibility>
+<LookAt>
+<heading>33.1232</heading>
+<tilt>83.1871</tilt>
+<latitude>40.01690759148675</latitude>
+<longitude>-105.283013688653</longitude>
+<range>18.3670633816238</range>
+<altitude>2.189162380822741</altitude>
+</LookAt>
+<Folder>
+<name>Tour</name>
+<Placemark>
+<name>Scene 1</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>33.1232</heading>
+<tilt>83.1871</tilt>
+<latitude>40.01690759148675</latitude>
+<longitude>-105.283013688653</longitude>
+<range>18.3670633816238</range>
+<altitude>2.189162380822741</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 2</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>352.791</heading>
+<tilt>84.3514</tilt>
+<latitude>40.01695878348001</latitude>
+<longitude>-105.2828621278536</longitude>
+<range>17.78580360687584</range>
+<altitude>1.756286837242644</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 3</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>312.725</heading>
+<tilt>84.3352</tilt>
+<latitude>40.01703380708593</latitude>
+<longitude>-105.2828626828462</longitude>
+<range>25.16258414393712</range>
+<altitude>2.491890118889417</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 4</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>343.577</heading>
+<tilt>86.7278</tilt>
+<latitude>40.01703976100834</latitude>
+<longitude>-105.2829273047755</longitude>
+<range>34.34845602731286</range>
+<altitude>1.962732380109706</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 5</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>157.518</heading>
+<tilt>86.7106</tilt>
+<latitude>40.01707677773386</latitude>
+<longitude>-105.2829382229408</longitude>
+<range>33.92215333434795</range>
+<altitude>1.948562738501248</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 6</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>118.585</heading>
+<tilt>89.8845</tilt>
+<latitude>40.01707055051512</latitude>
+<longitude>-105.2829348710004</longitude>
+<range>966.5918054470963</range>
+<altitude>1.948562738501248</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 7</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>351.598</heading>
+<tilt>88.6154</tilt>
+<latitude>40.01706377150155</latitude>
+<longitude>-105.2828792314002</longitude>
+<range>81.13132550170545</range>
+<altitude>1.96077010187162</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 8</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>278.866</heading>
+<tilt>84.245</tilt>
+<latitude>40.01708658177795</latitude>
+<longitude>-105.282855924718</longitude>
+<range>17.2098017383538</range>
+<altitude>1.731545935803933</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 9</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>17.1324</heading>
+<tilt>89.5113</tilt>
+<latitude>40.01708472277099</latitude>
+<longitude>-105.2829062669403</longitude>
+<range>238.6827199324127</range>
+<altitude>2.035870382094593</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 10</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>210.495</heading>
+<tilt>85.1616</tilt>
+<latitude>40.01714189671126</latitude>
+<longitude>-105.2828773193704</longitude>
+<range>27.64334596543881</range>
+<altitude>2.337155581238066</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 11</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>55.9292</heading>
+<tilt>89.018</tilt>
+<latitude>40.01703168803508</latitude>
+<longitude>-105.2828846907621</longitude>
+<range>125.9388747352285</range>
+<altitude>2.158577379392018</altitude>
+</LookAt>
+</Placemark>
+<Placemark>
+<name>Scene 12</name>
+<visibility>1</visibility>
+<LookAt>
+<heading>224.386</heading>
+<tilt>89.1378</tilt>
+<latitude>40.0170923168229</latitude>
+<longitude>-105.2828658982055</longitude>
+<range>329.0935244890911</range>
+<altitude>4.95235263665829</altitude>
+</LookAt>
+</Placemark>
+</Folder>
+  <Placemark>
+    <name>Model</name>
+    <description><![CDATA[]]></description>
+    <Style id='default'>
+    </Style>
+    <Model>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <Location>
+            <longitude>-105.283000000000</longitude>
+            <latitude>40.017000000000</latitude>
+            <altitude>0.000000000000</altitude>
+        </Location>
+        <Orientation>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <roll>0</roll>
+        </Orientation>
+        <Scale>
+            <x>1.0</x>
+            <y>1.0</y>
+            <z>1.0</z>
+        </Scale>
+        <Link>
+            <href>models/Gable House.dae</href>
+        </Link>
+    </Model>
+  </Placemark></Folder>
+</kml>
