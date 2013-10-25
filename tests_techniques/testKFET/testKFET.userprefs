@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MoveCamera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Highlighter.cs">
     <Files>
-      <File FileName="Assets\MoveCamera.cs" Line="37" Column="5" />
+      <File FileName="Assets\Highlighter.cs" Line="16" Column="74" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
