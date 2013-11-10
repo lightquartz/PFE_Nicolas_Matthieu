@@ -45,6 +45,22 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Highlighter.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRApplySharedTransform.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRClusterObject.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRShareTransform.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Interactions\VRActor.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Interactions\VRAttachToNode.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRCameraCB.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRManagerPostFrame.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRManagerScript.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRWandInteraction.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRWandNavigation.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRActionSample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRCalibrateTracker.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRCalibrateTrackerYaw.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRFollowNode.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRInteractionTest.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRVirtualTrackerMapping.cs" />
      <Compile Include="Assets\MoveCamera.cs" />
      <Compile Include="Assets\iTween\Plugins\iTween.cs" />
      <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
@@ -55,6 +71,12 @@
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\importsCollada\textures.txt" />
+ <Reference Include="MiddleVR_dotNet">
+ <HintPath>Assets\MiddleVR\MiddleVR_dotNet.dll</HintPath>
+ </Reference>
+ <Reference Include="MiddleVR_Unity3D">
+ <HintPath>Assets\MiddleVR\MiddleVR_Unity3D.dll</HintPath>
+ </Reference>
  <Reference Include="HOTween">
  <HintPath>Assets\Plugins\HOTween\HOTween.dll</HintPath>
  </Reference>

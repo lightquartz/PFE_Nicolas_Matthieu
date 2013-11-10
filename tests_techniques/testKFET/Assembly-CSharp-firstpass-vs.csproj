@@ -54,6 +54,12 @@
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\importsCollada\textures.txt" />
+ <Reference Include="MiddleVR_dotNet">
+ <HintPath>Assets\MiddleVR\MiddleVR_dotNet.dll</HintPath>
+ </Reference>
+ <Reference Include="MiddleVR_Unity3D">
+ <HintPath>Assets\MiddleVR\MiddleVR_Unity3D.dll</HintPath>
+ </Reference>
  <Reference Include="HOTween">
  <HintPath>Assets\Plugins\HOTween\HOTween.dll</HintPath>
  </Reference>
