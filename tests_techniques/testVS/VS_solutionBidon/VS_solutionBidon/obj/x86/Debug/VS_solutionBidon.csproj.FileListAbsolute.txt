@@ -1,0 +1,8 @@
+D:\Github\PFE_Nicolas_Matthieu\tests_techniques\testVS\VS_solutionBidon\VS_solutionBidon\bin\Debug\VS_solutionBidon.exe
+D:\Github\PFE_Nicolas_Matthieu\tests_techniques\testVS\VS_solutionBidon\VS_solutionBidon\bin\Debug\VS_solutionBidon.pdb
+D:\Github\PFE_Nicolas_Matthieu\tests_techniques\testVS\VS_solutionBidon\VS_solutionBidon\obj\x86\Debug\VS_solutionBidon.Form1.resources
+D:\Github\PFE_Nicolas_Matthieu\tests_techniques\testVS\VS_solutionBidon\VS_solutionBidon\obj\x86\Debug\VS_solutionBidon.Properties.Resources.resources
+D:\Github\PFE_Nicolas_Matthieu\tests_techniques\testVS\VS_solutionBidon\VS_solutionBidon\obj\x86\Debug\VS_solutionBidon.csproj.GenerateResource.Cache
+D:\Github\PFE_Nicolas_Matthieu\tests_techniques\testVS\VS_solutionBidon\VS_solutionBidon\obj\x86\Debug\VS_solutionBidon.exe
+D:\Github\PFE_Nicolas_Matthieu\tests_techniques\testVS\VS_solutionBidon\VS_solutionBidon\obj\x86\Debug\VS_solutionBidon.pdb
+D:\Github\PFE_Nicolas_Matthieu\tests_techniques\testVS\VS_solutionBidon\VS_solutionBidon\obj\x86\Debug\VS_solutionBidon.Form2.resources

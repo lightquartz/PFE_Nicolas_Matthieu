@@ -47,19 +47,91 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\VRCustomEditor.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Designer\_shared\Editor\AnimatedLabelEditor.cs" />
+     <Compile Include="Assets\eDriven\Editor\Audio\AudioPlayerEditor.cs" />
+     <Compile Include="Assets\eDriven\Editor\Audio\AudioPlayerMapperEditor.cs" />
+     <Compile Include="Assets\eDriven\Editor\Audio\AudioTokenEditor.cs" />
+     <Compile Include="Assets\eDriven\Editor\eDrivenMenu.cs" />
+     <Compile Include="Assets\eDriven\Extensions\ExampleControl\Editor\ExampleEditor.cs" />
+     <Compile Include="Assets\eDriven\Extensions\ExampleControl2\Editor\ExampleEditor2.cs" />
+     <Compile Include="Assets\eDriven\Extensions\Login\Editor\LoginEditor.cs" />
+     <Compile Include="Assets\eDriven\Extensions\Slider\Editor\SliderEditor.cs" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\Fugue Icons.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\wheelwork.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\silkcompanion.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\silkcompanion.txt" />
+     <None Include="Assets\eDriven\Resources\Cursors\antialiased-classic\package.xml" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\default\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\olney.txt" />
      <None Include="Assets\Plugins\PlayMaker\SWS_PlayMaker_ReadMe.txt" />
      <None Include="Assets\Plugins\HOTween\HOTween_License.txt" />
-     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\attribution.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\sans_nouveaux.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\attribution.txt" />
      <None Include="Assets\importsCollada\textures.txt" />
+     <None Include="Assets\eDriven\_README.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\Materials\Diamond\diamond shader.shader" />
+     <None Include="Assets\eDriven\Resources\Cursors\blueglass-vista\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\hydroxygen_iconset.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\attribution.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\Fugue Icons.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\JsonFX.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\adrianTNT\readme.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\purple\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\icons\wheelwork.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\sans_nouveaux.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\Prefabs\Shaders\Resources\Planet.shader" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\olney.txt" />
+     <None Include="Assets\eDriven\Resources\Cursors\default\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Icons\wheelwork.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\wheelwork\package.xml" />
+ <Reference Include="Bitverse.Unity.Gui.Editor">
+ <HintPath>Assets\bit-gui\Editor\Plugins\Bitverse.Unity.Gui.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>Assets\bit-gui\Editor\Plugins\nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="Bitverse.Unity.Gui">
+ <HintPath>Assets\bit-gui\Plugins\Bitverse.Unity.Gui.dll</HintPath>
+ </Reference>
  <Reference Include="HOTweenV1_Editor">
  <HintPath>Assets\Editor\HOTweenV1_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Animation">
+ <HintPath>Assets\eDriven\Libs\eDriven.Animation.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Audio">
+ <HintPath>Assets\eDriven\Libs\eDriven.Audio.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Core">
+ <HintPath>Assets\eDriven\Libs\eDriven.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Gui.Designer">
+ <HintPath>Assets\eDriven\Libs\eDriven.Gui.Designer.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Gui">
+ <HintPath>Assets\eDriven\Libs\eDriven.Gui.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Networking">
+ <HintPath>Assets\eDriven\Libs\eDriven.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>Assets\eDriven\Libs\JsonFx.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Gui.Editor">
+ <HintPath>Assets\eDriven\Libs\Editor\eDriven.Gui.Editor.dll</HintPath>
  </Reference>
  <Reference Include="MiddleVR_dotNet">
  <HintPath>Assets\MiddleVR\MiddleVR_dotNet.dll</HintPath>
  </Reference>
  <Reference Include="MiddleVR_Unity3D">
  <HintPath>Assets\MiddleVR\MiddleVR_Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Remoting">
+ <HintPath>Assets\Plugins\System.Runtime.Remoting.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
  <HintPath>Assets\Plugins\HOTween\HOTween.dll</HintPath>
@@ -90,6 +162,8 @@
       <Project>{0030AC0C-030B-B34D-CECD-B9173E558173}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{4308C264-631B-A096-71C1-07152ECCF930}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{5993A315-3428-9FC0-206F-5A9F1F0CDF1C}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

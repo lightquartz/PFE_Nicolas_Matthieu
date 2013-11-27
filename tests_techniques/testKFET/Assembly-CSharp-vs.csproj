@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GuiControllerMainScene.cs" />
+     <Compile Include="Assets\GuiTest.cs" />
      <Compile Include="Assets\Highlighter.cs" />
      <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRApplySharedTransform.cs" />
      <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRClusterObject.cs" />
@@ -64,23 +66,199 @@
      <Compile Include="Assets\MiddleVR\Scripts\Samples\VRInteractionTest.cs" />
      <Compile Include="Assets\MiddleVR\Scripts\Samples\VRVirtualTrackerMapping.cs" />
      <Compile Include="Assets\MoveCamera.cs" />
-     <Compile Include="Assets\iTween\Plugins\iTween.cs" />
-     <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
-     <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
-     <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\Server.cs" />
+     <Compile Include="Assets\TreeGUI.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\EventDispatcher\Demo1\CustomEvent.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\EventDispatcher\Demo1\EventDispatcherDemo1.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\EventDispatcher\Demo1\EventDispatcherScript.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\EventDispatcher\Demo1\EventListenerScript.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\EventDispatcher\Demo2\EventDispatcherDemo2.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\EventDispatcher\Demo2\EventDispatcherScript2.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\EventDispatcher\Demo2\EventListenerScript2.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\Timer\Demo1\TimerDemo1.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\Timer\Demo2\Randomizer.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\Timer\Demo2\TimerDemo2.cs" />
+     <Compile Include="Assets\eDriven\Demo\Core\Timer\TimerTest.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\AbsoluteLayout\AbsoluteLayoutDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\AbsoluteLayout2\AbsoluteLayoutDemo2.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\AbsoluteLayout2\Stuff.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\AddChild\AddChildDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\AddChild\AddChildDemo2.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Animation\AnimationDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Animation\ThePanel.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\AutoLayout\AutoLayoutDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\ChildControls\ChildControlsDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\ChildControls\ListRow.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Console\ConsoleDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Console\ConsoleField.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Console\ConsoleWindow.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Console\InputEvent.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Console\ShowEffect.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Cursors\CursorDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\DragDrop\DragDropDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\DragDrop\GreenLabelStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\DragDrop\YellowLabelStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\DragDrop2\DragDropDemo2.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Dummy\DummyDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\EventBubbling\EventBubblingDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Form\FormDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Form2\FormDemo2.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\HelloWorld\HelloWorld.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\LoadImages\Flickr\PhotosSearch.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\LoadImages\LoadImages.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\LoadImages\OptionsPopup.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\LoadImages\Styles\OptionsPopupBackgroundStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\LoadImages\Styles\SearchContainerBackgroundStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\LoadImages\Styles\SearchLabelStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\LoadImages\Thumbnail.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\LoadLevel\LoadLevelDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\LoadingMask\LoadingMaskDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Resizable\ResizableDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\Sliders\Sliders.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\SlidersComposite\RgbSliders.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Code\SlidersComposite\SlidersComposite.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Designer\ButtonDemo\ButtonDemo.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Designer\CustomControlsDemo\CustomControlsDemoHandlers.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Designer\DataControls\DataControlsDemoHandlers.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Designer\DialogDemo\DialogDemoHandlers.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Designer\_shared\Adapters\AnimatedLabelAdapter.cs" />
+     <Compile Include="Assets\eDriven\Demo\Gui\Designer\_shared\Animations\Animations.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Components\HesitantButton.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Components\HesitantLabel.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Components\Options.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Components\PanelSkin.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Components\TextRotator.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Dialogs\ResolutionDialog.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Helpers\EasingHelper.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Helpers\QualityHelper.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Helpers\ResolutionHelper.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Helpers\TileHelper.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Models\OptionsModel.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Scripts\EDrivenLogo.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Scripts\OptionsToolbar.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Styles\BlueLabelStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Styles\ButtonsStyle2.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Styles\EDrivenButtonStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Styles\HesitantLabelStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\BounceDown.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\CollapseUpLeftAlpha.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\CommentFadeIn.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\DataListChildAdd.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\DialogFadeOut.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\DialogFallDown.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\DialogResizeUp.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\DialogSlideDown.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\DialogSlideUp.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\ExpandRightDownAlpha.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FadeIn.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FadeIn2.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FadeInLeft.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FadeInLeft2.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FadeInLeftBounce.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FadeInUp.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FadeInUp2.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FadeInUp3.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FadeInUpLeft.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FadeOut.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FallDownToCenter.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\FlyToLeft.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\Interpolators\FlyingBeeInterpolator.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\Jumpy.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\ZeroFadeIn.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Code\Tweens\ZeroFadeOut.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Prefabs\Shipyard\Planet.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Scripts\MouseLook2.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Scripts\MouseOrbitCs.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Scripts\ReflectionTest.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Scripts\TestClass.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Scripts\iTween.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Styles\GreenButtonStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Styles\ImageStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Styles\PortletBackgroundStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Styles\PortletHeaderStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Styles\PortletOverlayStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Styles\PurpleButtonStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Styles\TabButtonStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\Styles\TabSelectedButtonStyle.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\_bugs\GuiEventProcessingOrderBug.cs" />
+     <Compile Include="Assets\eDriven\Demo\_shared\_bugs\ScrollViewTest.cs" />
+     <Compile Include="Assets\eDriven\Extensions\ExampleControl\ExampleAdapter.cs" />
+     <Compile Include="Assets\eDriven\Extensions\ExampleControl\ExampleControl.cs" />
+     <Compile Include="Assets\eDriven\Extensions\ExampleControl2\ExampleAdapter2.cs" />
+     <Compile Include="Assets\eDriven\Extensions\ExampleControl2\ExampleControl2.cs" />
+     <Compile Include="Assets\eDriven\Extensions\ExampleControl2\ExampleEvent.cs" />
+     <Compile Include="Assets\eDriven\Extensions\Login\Login.cs" />
+     <Compile Include="Assets\eDriven\Extensions\Login\LoginAdapter.cs" />
+     <Compile Include="Assets\eDriven\Extensions\Login\LoginEvent.cs" />
+     <Compile Include="Assets\eDriven\Extensions\Slider\SliderAdapter.cs" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\Fugue Icons.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\wheelwork.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\silkcompanion.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\silkcompanion.txt" />
+     <None Include="Assets\eDriven\Resources\Cursors\antialiased-classic\package.xml" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\default\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\olney.txt" />
      <None Include="Assets\Plugins\PlayMaker\SWS_PlayMaker_ReadMe.txt" />
      <None Include="Assets\Plugins\HOTween\HOTween_License.txt" />
-     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\attribution.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\sans_nouveaux.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\attribution.txt" />
      <None Include="Assets\importsCollada\textures.txt" />
+     <None Include="Assets\eDriven\_README.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\Materials\Diamond\diamond shader.shader" />
+     <None Include="Assets\eDriven\Resources\Cursors\blueglass-vista\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\hydroxygen_iconset.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\attribution.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\Fugue Icons.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\JsonFX.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\adrianTNT\readme.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\purple\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\icons\wheelwork.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\sans_nouveaux.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\Prefabs\Shaders\Resources\Planet.shader" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\olney.txt" />
+     <None Include="Assets\eDriven\Resources\Cursors\default\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Icons\wheelwork.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\wheelwork\package.xml" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Bitverse.Unity.Gui">
+ <HintPath>Assets\bit-gui\Plugins\Bitverse.Unity.Gui.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Animation">
+ <HintPath>Assets\eDriven\Libs\eDriven.Animation.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Audio">
+ <HintPath>Assets\eDriven\Libs\eDriven.Audio.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Core">
+ <HintPath>Assets\eDriven\Libs\eDriven.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Gui.Designer">
+ <HintPath>Assets\eDriven\Libs\eDriven.Gui.Designer.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Gui">
+ <HintPath>Assets\eDriven\Libs\eDriven.Gui.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Networking">
+ <HintPath>Assets\eDriven\Libs\eDriven.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>Assets\eDriven\Libs\JsonFx.Json.dll</HintPath>
  </Reference>
  <Reference Include="MiddleVR_dotNet">
  <HintPath>Assets\MiddleVR\MiddleVR_dotNet.dll</HintPath>
  </Reference>
  <Reference Include="MiddleVR_Unity3D">
  <HintPath>Assets\MiddleVR\MiddleVR_Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Remoting">
+ <HintPath>Assets\Plugins\System.Runtime.Remoting.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
  <HintPath>Assets\Plugins\HOTween\HOTween.dll</HintPath>

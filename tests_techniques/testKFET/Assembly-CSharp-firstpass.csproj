@@ -51,16 +51,70 @@
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\Fugue Icons.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\wheelwork.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\silkcompanion.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\silkcompanion.txt" />
+     <None Include="Assets\eDriven\Resources\Cursors\antialiased-classic\package.xml" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\default\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\olney.txt" />
      <None Include="Assets\Plugins\PlayMaker\SWS_PlayMaker_ReadMe.txt" />
      <None Include="Assets\Plugins\HOTween\HOTween_License.txt" />
-     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\attribution.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\sans_nouveaux.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\attribution.txt" />
      <None Include="Assets\importsCollada\textures.txt" />
+     <None Include="Assets\eDriven\_README.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\Materials\Diamond\diamond shader.shader" />
+     <None Include="Assets\eDriven\Resources\Cursors\blueglass-vista\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\hydroxygen_iconset.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\attribution.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\Fugue Icons.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\JsonFX.txt" />
+     <None Include="Assets\eDriven\Libs\3rdParty\adrianTNT\readme.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\purple\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\icons\wheelwork.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\sans_nouveaux.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\Prefabs\Shaders\Resources\Planet.shader" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\olney.txt" />
+     <None Include="Assets\eDriven\Resources\Cursors\default\package.xml" />
+     <None Include="Assets\eDriven\Libs\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
+     <None Include="Assets\eDriven\Demo\_shared\3rdParty\Icons\wheelwork.txt" />
+     <None Include="Assets\eDriven\Resources\Progress\wheelwork\package.xml" />
+ <Reference Include="Bitverse.Unity.Gui">
+ <HintPath>Assets\bit-gui\Plugins\Bitverse.Unity.Gui.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Animation">
+ <HintPath>Assets\eDriven\Libs\eDriven.Animation.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Audio">
+ <HintPath>Assets\eDriven\Libs\eDriven.Audio.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Core">
+ <HintPath>Assets\eDriven\Libs\eDriven.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Gui.Designer">
+ <HintPath>Assets\eDriven\Libs\eDriven.Gui.Designer.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Gui">
+ <HintPath>Assets\eDriven\Libs\eDriven.Gui.dll</HintPath>
+ </Reference>
+ <Reference Include="eDriven.Networking">
+ <HintPath>Assets\eDriven\Libs\eDriven.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>Assets\eDriven\Libs\JsonFx.Json.dll</HintPath>
+ </Reference>
  <Reference Include="MiddleVR_dotNet">
  <HintPath>Assets\MiddleVR\MiddleVR_dotNet.dll</HintPath>
  </Reference>
  <Reference Include="MiddleVR_Unity3D">
  <HintPath>Assets\MiddleVR\MiddleVR_Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Remoting">
+ <HintPath>Assets\Plugins\System.Runtime.Remoting.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
  <HintPath>Assets\Plugins\HOTween\HOTween.dll</HintPath>
