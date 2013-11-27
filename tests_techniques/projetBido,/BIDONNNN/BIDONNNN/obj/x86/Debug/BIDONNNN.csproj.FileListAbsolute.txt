@@ -1,7 +1,0 @@
-D:\Github\PFE_Nicolas_Matthieu\tests_techniques\projetBido,\BIDONNNN\BIDONNNN\bin\Debug\BIDONNNN.exe
-D:\Github\PFE_Nicolas_Matthieu\tests_techniques\projetBido,\BIDONNNN\BIDONNNN\bin\Debug\BIDONNNN.pdb
-D:\Github\PFE_Nicolas_Matthieu\tests_techniques\projetBido,\BIDONNNN\BIDONNNN\obj\x86\Debug\BIDONNNN.Form1.resources
-D:\Github\PFE_Nicolas_Matthieu\tests_techniques\projetBido,\BIDONNNN\BIDONNNN\obj\x86\Debug\BIDONNNN.Properties.Resources.resources
-D:\Github\PFE_Nicolas_Matthieu\tests_techniques\projetBido,\BIDONNNN\BIDONNNN\obj\x86\Debug\BIDONNNN.csproj.GenerateResource.Cache
-D:\Github\PFE_Nicolas_Matthieu\tests_techniques\projetBido,\BIDONNNN\BIDONNNN\obj\x86\Debug\BIDONNNN.exe
-D:\Github\PFE_Nicolas_Matthieu\tests_techniques\projetBido,\BIDONNNN\BIDONNNN\obj\x86\Debug\BIDONNNN.pdb
