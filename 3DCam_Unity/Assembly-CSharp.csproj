@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Classes\class_Room.cs" />
      <Compile Include="Assets\Scripts\Serialization\SaveLoadXML.cs" />
      <Compile Include="Assets\Scripts\Serialization\testSaveandLoad.cs" />
+     <Compile Include="Assets\ViewsController.cs" />
      <Compile Include="Assets\cursor.cs" />
      <None Include="Assets\XML_Data\list_rooms.xml" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
