@@ -1,0 +1,3 @@
+ - Dates précises pour le calendrier 
+ - Donner un objectif clair pour le prototype
+ - concurrence / modèle économique ?
