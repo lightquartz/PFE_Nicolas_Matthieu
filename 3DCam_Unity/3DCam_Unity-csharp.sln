@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{81BF05FC-2A72-9292-094F-E64B4239D379}") = "3DCam_Unity", "Assembly-CSharp-firstpass-vs.csproj", "{A49D870E-77D8-AC22-0096-642F79016A3B}"
+EndProject
 Project("{81BF05FC-2A72-9292-094F-E64B4239D379}") = "3DCam_Unity", "Assembly-CSharp-vs.csproj", "{742F7640-C28E-C5B5-4AC9-CEC9B4FC2A40}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49D870E-77D8-AC22-0096-642F79016A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49D870E-77D8-AC22-0096-642F79016A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49D870E-77D8-AC22-0096-642F79016A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49D870E-77D8-AC22-0096-642F79016A3B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{742F7640-C28E-C5B5-4AC9-CEC9B4FC2A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{742F7640-C28E-C5B5-4AC9-CEC9B4FC2A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{742F7640-C28E-C5B5-4AC9-CEC9B4FC2A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -17,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																					GlobalSection(MonoDevelopProperties) = preSolution
+																												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

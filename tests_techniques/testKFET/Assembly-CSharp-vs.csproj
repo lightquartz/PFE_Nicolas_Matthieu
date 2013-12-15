@@ -49,6 +49,7 @@
      <Compile Include="Assets\GuiControllerMainScene.cs" />
      <Compile Include="Assets\GuiTest.cs" />
      <Compile Include="Assets\Highlighter.cs" />
+     <Compile Include="Assets\License.cs" />
      <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRApplySharedTransform.cs" />
      <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRClusterObject.cs" />
      <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRShareTransform.cs" />
@@ -66,6 +67,10 @@
      <Compile Include="Assets\MiddleVR\Scripts\Samples\VRInteractionTest.cs" />
      <Compile Include="Assets\MiddleVR\Scripts\Samples\VRVirtualTrackerMapping.cs" />
      <Compile Include="Assets\MoveCamera.cs" />
+     <Compile Include="Assets\Scripts\GUI.cs" />
+     <Compile Include="Assets\Scripts\Interactive.cs" />
+     <Compile Include="Assets\Scripts\InteractiveMessageGUI.cs" />
+     <Compile Include="Assets\Scripts\TV.cs" />
      <Compile Include="Assets\Server.cs" />
      <Compile Include="Assets\TreeGUI.cs" />
      <Compile Include="Assets\eDriven\Demo\Core\EventDispatcher\Demo1\CustomEvent.cs" />
@@ -197,6 +202,7 @@
      <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\silkcompanion.txt" />
      <None Include="Assets\eDriven\Libs\3rdParty\Attribution\silkcompanion.txt" />
      <None Include="Assets\eDriven\Resources\Cursors\antialiased-classic\package.xml" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
      <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
      <None Include="Assets\eDriven\Resources\Progress\default\package.xml" />
      <None Include="Assets\eDriven\Libs\3rdParty\Attribution\olney.txt" />
@@ -211,6 +217,7 @@
      <None Include="Assets\eDriven\Demo\_shared\Materials\Diamond\diamond shader.shader" />
      <None Include="Assets\eDriven\Resources\Cursors\blueglass-vista\package.xml" />
      <None Include="Assets\eDriven\Libs\3rdParty\Attribution\hydroxygen_iconset.txt" />
+     <None Include="Assets\Standard Assets\Water\Sources\FX-Water Simple.shader" />
      <None Include="Assets\eDriven\Libs\3rdParty\Attribution\attribution.txt" />
      <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\Fugue Icons.txt" />
      <None Include="Assets\eDriven\Libs\3rdParty\Attribution\JsonFX.txt" />

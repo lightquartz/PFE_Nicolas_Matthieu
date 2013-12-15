@@ -50,8 +50,16 @@
      <Compile Include="Assets\Scripts\Classes\class_Furniture.cs" />
      <Compile Include="Assets\Scripts\Classes\class_Room.cs" />
      <Compile Include="Assets\Scripts\Serialization\SaveLoadXML.cs" />
-     <Compile Include="Assets\testSaveandLoad.cs" />
+     <Compile Include="Assets\Scripts\Serialization\testSaveandLoad.cs" />
+     <Compile Include="Assets\cursor.cs" />
      <None Include="Assets\XML_Data\list_rooms.xml" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{A49D870E-77D8-AC22-0096-642F79016A3B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{27CC3B78-85A6-C127-6E30-106AD92EB14B}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
