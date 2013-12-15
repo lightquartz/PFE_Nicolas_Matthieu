@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRoom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Room>
+    <list_furniture>
+      <Furniture>
+        <id_Furniture>0</id_Furniture>
+        <serial_number>010133232112</serial_number>
+      </Furniture>
+    </list_furniture>
+    <idRoom>10</idRoom>
+    <incr_nb_furnitures>1</incr_nb_furnitures>
+  </Room>
+  <Room>
+    <list_furniture>
+      <Furniture>
+        <id_Furniture>0</id_Furniture>
+        <serial_number>1ff32112</serial_number>
+      </Furniture>
+    </list_furniture>
+    <idRoom>40</idRoom>
+    <incr_nb_furnitures>1</incr_nb_furnitures>
+  </Room>
+  <Room>
+    <list_furniture />
+    <idRoom>0</idRoom>
+    <incr_nb_furnitures>0</incr_nb_furnitures>
+  </Room>
+  <Room>
+    <list_furniture />
+    <idRoom>0</idRoom>
+    <incr_nb_furnitures>0</incr_nb_furnitures>
+  </Room>
+  <Room>
+    <list_furniture>
+      <Furniture>
+        <id_Furniture>0</id_Furniture>
+        <serial_number>1ff32112</serial_number>
+      </Furniture>
+    </list_furniture>
+    <idRoom>0</idRoom>
+    <incr_nb_furnitures>1</incr_nb_furnitures>
+  </Room>
+</ArrayOfRoom>

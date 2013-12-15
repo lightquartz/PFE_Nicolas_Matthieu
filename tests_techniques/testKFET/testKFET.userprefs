@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GuiControllerMainScene.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\3DCam_Unity\Assets\Scripts\Classes.cs">
     <Files>
-      <File FileName="Assets\GuiControllerMainScene.cs" Line="1" Column="1" />
-      <File FileName="Assets\GuiControllerMainScene.cs" Line="1" Column="1" />
-      <File FileName="Assets\Server.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" Line="1" Column="1" />
+      <File FileName="..\..\3DCam_Unity\Assets\Scripts\Classes.cs" Line="49" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
