@@ -61,6 +61,7 @@
      <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\silkcompanion.txt" />
      <None Include="Assets\eDriven\Libs\3rdParty\Attribution\silkcompanion.txt" />
      <None Include="Assets\eDriven\Resources\Cursors\antialiased-classic\package.xml" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
      <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\famfamfam_silk_icons_v013.txt" />
      <None Include="Assets\eDriven\Resources\Progress\default\package.xml" />
      <None Include="Assets\eDriven\Libs\3rdParty\Attribution\olney.txt" />
@@ -75,6 +76,7 @@
      <None Include="Assets\eDriven\Demo\_shared\Materials\Diamond\diamond shader.shader" />
      <None Include="Assets\eDriven\Resources\Cursors\blueglass-vista\package.xml" />
      <None Include="Assets\eDriven\Libs\3rdParty\Attribution\hydroxygen_iconset.txt" />
+     <None Include="Assets\Standard Assets\Water\Sources\FX-Water Simple.shader" />
      <None Include="Assets\eDriven\Libs\3rdParty\Attribution\attribution.txt" />
      <None Include="Assets\eDriven\Demo\_shared\3rdParty\Attribution\Fugue Icons.txt" />
      <None Include="Assets\eDriven\Libs\3rdParty\Attribution\JsonFX.txt" />
